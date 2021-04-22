@@ -3,6 +3,7 @@ new Vue({
 	data: {
 		product: 'Socks',
 		description: '100% Cotton American Made',
-		image: './socks.jpeg'
+		image: './socks.jpeg',
+		inStock: true
 	}
 })
