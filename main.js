@@ -4,6 +4,8 @@ new Vue({
 		product: 'Socks',
 		description: '100% Cotton American Made',
 		image: './socks.jpeg',
-		inStock: true
+		inStock: true,
+		onSale: true,
+		sizes: ["small","medium","large"]
 	}
 })
