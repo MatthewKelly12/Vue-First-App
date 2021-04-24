@@ -4,7 +4,7 @@ var vm = new Vue({
 		brand: 'Mattazon',
 		product: 'Socks',
 		description: '100% Cotton American Made',
-		image: './greenSocks.jpeg',
+		selectedVariant: 0,
 		inStock: true,
 		onSale: true,
 		sizes: ["small","medium","large"],

@@ -25,7 +25,7 @@
 				<p v-else >Out of Stock</p>
 				<span v-if="onSale">On Sale! $10.99 Regular $12.99</span>
 				<div
-					v-for="variant in variants"
+					v-for="(variant,index) in variants"
 					:key="variant.Id"
 					class="color-box"
 					:style="{backgroundColor: variant.color}"
