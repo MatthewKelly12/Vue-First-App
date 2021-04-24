@@ -34,4 +34,5 @@ var vm = new Vue({
 // console.log(variants)
 //variantImage = './greenSocks.jpeg'
 //variantImage = './blueSocks.jpeg'
+//
 
