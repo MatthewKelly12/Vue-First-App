@@ -1,6 +1,7 @@
 var vm = new Vue({
 	el: '#app',
 	data: {
+		brand: 'Mattazon',
 		product: 'Socks',
 		description: '100% Cotton American Made',
 		image: './greenSocks.jpeg',
@@ -27,6 +28,11 @@ var vm = new Vue({
 		},
 		updateProduct: function(variantImage) {
 			this.image = variantImage
+		}
+	},
+	computed: {
+		title(){
+			return this.brand + ' ' + this.product
 		}
 	}
 })
