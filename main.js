@@ -1,4 +1,4 @@
-new Vue({
+var vm = new Vue({
 	el: '#app',
 	data: {
 		product: 'Socks',
@@ -12,6 +12,12 @@ new Vue({
 			{variantId: 2, color: 'Blue'}
 		],
 		cart: 0
+
+	},
+	methods: {
+		addToCart: function() {
+			this.cart += 1
+		}
 	}
 })
 
