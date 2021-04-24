@@ -25,7 +25,7 @@
 				<p v-else >Out of Stock</p>
 				<span v-if="onSale">On Sale! $10.99 Regular $12.99</span>
 				<div  v-for="variant in variants" :key="variant.Id">
-					<p>{{ variant.color }}</p>
+					<p @mouseover="updateProduct(variant.variantImage)">{{ variant.color }}</p>
 				</div>
 				<button v-on:click="addToCart">Add To Cart</button>
 				<div  class="cart">
