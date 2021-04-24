@@ -15,7 +15,7 @@ var vm = new Vue({
 			},
 			{
 				variantId: 2,
-				color: 'Blue',
+				color: '#003568',
 				variantImage: './blueSocks.jpeg'
 			}
 		],
